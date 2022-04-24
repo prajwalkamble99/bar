@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.myProgress{
+	width: 50%;
+	height: 10px;
+	max-width: 7000px;
+	background: white; 
+	border: 3px solid blue; 
+}
+
+#myBar{
+	width: 0%;
+	height: 10px;
+	line-height: 40px;
+	background: blue;
+	text-align: center;
+}
+
+button{
+	background: blue;
+	display: block;
+	margin-top: 50px;
+	border : none;
+	outline: none;
+	padding: 12px;
+	color: white;
+}
